@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Zen+Old+Mincho:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Project To-Do List</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Minha Lista de Tarefas</h1>
+      </header>
+
+      <p id="funcionamento">
+        Clique duas vezes em um item para marcá-lo como completo.
+      </p>
+
+      <section>
+        <input
+          type="text"
+          id="texto-tarefa"
+          placeholder="What do you need to do?"
+        />
+
+        <button id="criar-tarefa">Add Task</button>
+      </section>
+
+      <ol id="lista-tarefas"></ol>
+
+      <section class="button">
+        <button id="apaga-tudo">Clean All</button>
+
+        <button id="remover-finalizados">Clean Finished</button>
+
+        <button id="salvar-tarefas">Save List</button>
+
+        <button id="mover-cima">Move Up</button>
+
+        <button id="mover-baixo">Move Down</button>
+
+        <button id="remover-selecionado">Clean Select</button>
+      </section>
+    </main>
+
+    <footer>Powered by Gabi Ferraz</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

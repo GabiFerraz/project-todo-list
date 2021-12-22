@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Irish Grover', cursive;
+}
+
+body {
+  background-color: rgb(255, 107, 107);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* vh é a altura da minha tela, viewport height
+display grid é para eu montar uma tabela de elementos,
+e aí usei o place-items para colocar todos os itens na minha tela no centro */
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 600px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  display: grid;
+  place-items: center;
+}
+
+p {
+  margin-bottom: 30px;
+  display: grid;
+  place-items: center;
+}
+
+section {
+  text-align: center;
+}
+
+#texto-tarefa {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#criar-tarefa {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(119, 253, 150);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+#lista-tarefas {
+  margin-bottom: 30px;
+  display: grid;
+  place-items: center;
+}
+
+#apaga-tudo {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(169, 212, 252);
+}
+
+#remover-finalizados {
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(249, 219, 156);
+}
+
+#salvar-tarefas {
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(247, 195, 185);
+}
+
+#mover-cima {
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(246, 171, 189);
+  padding: 5px;
+}
+
+#mover-baixo {
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(249, 209, 218);
+  padding: 5px;
+}
+
+#remover-selecionado {
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(248, 184, 246);
+}
+
+.button {
+  text-align: center;
+}
